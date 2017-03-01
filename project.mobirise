@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 56,
+    "uniqCompNum": 58,
     "versionPublish": "3.12",
     "favicon": "@PROJECT_PATH@/assets/images/20019-anime-scenery-128x72.png",
     "noImageResize": "",
@@ -75,6 +75,94 @@
           "title": "<font color=\"#7c706b\" face=\"Yanone Kaffeesatz, sans-serif\"><i>مرحباً ..</i></font><br><br><i></i>",
           "text": "",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline btn-secondary\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">مفهوم الثقافة الصّحية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline btn-secondary\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">التغذية الصّحية<br></a>  "
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -466,6 +554,94 @@
           "title": "وزارة الصّحة&nbsp;",
           "text": "من أهم المجالات الصحية وتلعب دور كبير لنشر الوعي الصحي وإجبار بعض الجهات مثل المدارس والمستشفيات .. إلخ&nbsp;<br>في نشر الوعي بأي طريقة من الطرق .",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -511,6 +687,94 @@
               "color": "#f5bc06"
             }
           }
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -581,6 +845,94 @@
           "title": "البرُوتينات",
           "text": "تدخل هذه المواد في تركيب كريات الدم الحمراء، وفي الأجسام المضادة التي تلعب دورا أساسيا في مقاومة الأمراض، إضافة إلى ذلك فهي تدخل في تركيب الهرمونات، وفي تكوين عوامل التخثر في الدم، وهي تزود الجسم بالطاقة، لذلك ينبغي أن يحتوي طعام الإنسان على ما يعادل 1 غرام من المواد البروتينية لكل 1 كيلو غرام من وزن الجسم.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -648,6 +1000,94 @@
           "title": "المواد الدّسمة",
           "text": "يعتقد الكثير من الأشخاص أن المواد الدسمة تضر بالجسم، ولهذا نجدهم لا يتناولون الأطعمة الدسمة، بينما هذه المواد الدسمة ضرورية للجسم، فهي تنقل بعض الفيتامينات إلى أماكن امتصاصها في الجسم من أجل الاستفادة منها، ومن أجل سير العمليات الاستقلالية وتزويد الجسم بالطاقة، ولأن المواد الدسمة تحترق ببطء لهذا فهي تقي الشخص من الشعور بالجوع، وذلك بمقارنتها مع المواد السكرية.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -715,6 +1155,94 @@
           "title": "المواد السّكرية",
           "text": "* تعتبر السكريات من المصادر الأساسية للطاقة، وهي بالإضافة إلى ذلك توفر بعض مواد البناء لأنسجة وأعضاء الجسم، ومن أهم مصادرها الخضار والفواكه والحبوب.<br>* ونظرا لأهمية المواد السكرية لهذا يجب أن يحصل الإنسان على كميات كافية منها يوميا، وإن لم يتوفر ذلك فان الجسم يقوم بتأمين احتياجاته من استقلاب المواد الدسمة والبروتينية، ومن جراء ذلك قد تحدث بعض الاضطرابات خصوصا إن لم يتوفر المخزون الأساسي من هذه المواد.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -782,6 +1310,94 @@
           "title": "الفيتامينات والمواد المعدنية",
           "text": "تلعب العناصر المعدنية دورا مهما في العمليات الحيوية في الجسم فهي تنظم عملية البناء والتركيب في أنسجة وخلايا الجسم المختلفة، وهي ضرورية لاستمرار الحياة والتمتع بالصحة والعافية بعيدا عن المرض ويحتاج الجسم للفيتامينات والعناصر المعدنية لاداء وظائفه بشكل صحيح ولابد الحصول عليها من الطعام الذي نتناوله .<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     },
@@ -849,6 +1465,94 @@
           "title": "المَاء",
           "text": "يحتوي جسم الإنسان على 57 ليترا من السوائل في جسده، ويطرح بشكل يومي 5 ليترات عن طريق البول والعرق والتبخر والتنفس أيضا. ولهذا فان الجسم بحاجة إلى حوالي ثمانية أكواب من الماء يوميا كي لا يصاب بأية اضطرابات. وتجدر الإشارة إلى أن الإنسان ولو كان على علم بأسس التغذية السليمة فانه قد يصعب عليه تطبيقها ان لم يدرك مواقع الخلل في التغذية، وكيف يصححها، فالمواد البروتينية والدسمة والسكرية والفيتامينات والعناصر المعدنية والماء جميعها ضرورية للصحة والجمال، لأن أي نقص في إحداها يسبب الاضطرابات التي تضعف الجسم وتؤثر بشكل سلبي على سلامته، ولهذا ننصح الجميع من مختلف الأعمار بضرورة تناول الغذاء الصحي المتنوع الذي يحافظ على الصحة والحيوية والجمال.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#3d8eb9"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#3d8eb9"
+            },
+            ".link, .dropdown-item": {
+              "color": "#3d8eb9"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#a8a8a8"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#b9b9b9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#c1c1c1"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#3d8eb9",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#28324e!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1l",
+          "_params": {
+            "bgColor": "#c1c1c1",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#3d8eb9",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">الرئيسية</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">مفهوم الثقافة الصحية</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">التغذية الصّحية</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">المواد البروتينية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">المواد الدّسمة</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">المواد السّكرية</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">الفيتامينات</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page9.html\">الماء</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         }
       ]
     }
