@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 37,
+    "uniqCompNum": 56,
     "versionPublish": "3.12",
     "favicon": "@PROJECT_PATH@/assets/images/20019-anime-scenery-128x72.png",
     "noImageResize": "",
@@ -47,7 +47,7 @@
           "_styles": {
             ".mbr-section-title I": {
               "text-align": "center",
-              "color": "#7c706b",
+              "color": "#000000",
               "font-family": "'Yanone Kaffeesatz', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
             }
@@ -57,7 +57,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3012-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1250.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -72,9 +72,9 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "<i>الثّقافَة الصّحية</i><br><i><br></i>",
+          "title": "<font color=\"#7c706b\" face=\"Yanone Kaffeesatz, sans-serif\"><i>مرحباً ..</i></font><br><br><i></i>",
           "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">مفهوم الثقافة الصّحية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">مجالات الثقافة الصّحية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">اهداف الثقافة الصّحية</a> "
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline btn-secondary\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">مفهوم الثقافة الصّحية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline btn-secondary\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">التغذية الصّحية<br></a>  "
         }
       ]
     },
@@ -91,7 +91,10 @@
           "_name": "testimonials2",
           "_styles": {
             ".mbr-section-subtitle": {
-              "color": "#f28281"
+              "color": "#2969b0"
+            },
+            ".card-block P": {
+              "color": "#00a885"
             }
           },
           "testimonial": [
@@ -160,8 +163,8 @@
             "showBio": true,
             "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3012.jpg",
-            "bgColor": "#cccccc",
+            "bgImage": "@PROJECT_PATH@/assets/images/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%B7%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%B1%D8%B5%D9%8A%D9%81-%D8%A7%D9%84%D9%85%D8%A4%D8%AF%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%A8%D8%AD%D8%B1-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B5%D9%88%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%88%D8%AF%D9%8A%D9%88-5x7ft-%D8%A7%D9%84%D9%81%D9%8A%D9%86%D9%8A%D9%84-%D8%B9%D8%B1%D8%B3-%D8%A7%D9%84%D8%AA%D8%B5%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-2000x2088.jpg",
+            "bgColor": "#f7da64",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.2,
@@ -180,10 +183,10 @@
           "_name": "testimonials4",
           "_styles": {
             ".card-block P": {
-              "color": "#f28281"
+              "color": "#00a885"
             },
             ".card-block": {
-              "color": "#f28281"
+              "color": "#00a885"
             }
           },
           "testimonial": [
@@ -241,7 +244,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
-            "bgColor": "#cccccc",
+            "bgColor": "#f7da64",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.2,
@@ -251,15 +254,7 @@
           },
           "title": "\"مفهوم الثقافة الصحية وارتباطها بالوعي الصّحي\"",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
-        }
-      ]
-    },
-    "page4.html": {
-      "settings": {
-        "title": "Web Site Creator Title",
-        "meta_descr": "Web Site Creator Description"
-      },
-      "components": [
+        },
         {
           "_tags": [
             "Theme"
@@ -270,17 +265,17 @@
               "font-size": "18px"
             }
           },
-          "_anchor": "image2-q",
+          "_anchor": "image2-15",
           "_params": {
             "paddingTop": 4,
             "paddingBottom": 4,
-            "bgColor": "#fff",
+            "bgColor": "#f7da64",
             "showText": true
           },
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-2000x3012.jpg",
+              "src": "@PROJECT_PATH@/assets/images/1-1400x875.jpg",
               "width": 1400,
               "link": "",
               "alt": "",
@@ -303,7 +298,7 @@
               "background-color": "#2e2e2e"
             }
           },
-          "_anchor": "features1-s",
+          "_anchor": "features1-1b",
           "_params": {
             "columnsColor": "#2e2e2e",
             "paddingTop": 2,
@@ -311,7 +306,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#00a885",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -420,14 +415,17 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "color": "#a84941"
             }
           },
-          "_anchor": "header2-u",
+          "_anchor": "header2-1c",
           "_params": {
             "imageSize": 50,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x3012.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-1-2000x1250.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
@@ -471,12 +469,388 @@
         }
       ]
     },
+    "page4.html": {
+      "settings": {
+        "title": "Web Site Creator Title",
+        "meta_descr": "Web Site Creator Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1250.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "الغذاء الصّحي",
+          "text": "<br>يرى خبراء الصحة العامة أن الصحة والجمال يقومان أساسا على قواعد التغذية السليمة، إذ أن عمل وتناغم أعضاء الجسم يعتمدان على توازن العناصر الأساسية الواردة إليه عن طريق الطعام المتناول. ومن المعروف أن الغذاء يتكون أساسا من المجموعات الغذائية الأساسية التالية:<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">المواد البروتينية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">المواد الدّسمة</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"page7.html\" data-toolbar=\"-mbrBtnMove\">المواد السكرية</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\">العناصر المعدنية والبروتينات</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary\" href=\"page9.html\" data-toolbar=\"-mbrBtnMove\">الماء</a>    ",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "color": "#f5bc06"
+            }
+          }
+        }
+      ]
+    },
     "page5.html": {
       "settings": {
         "title": "Website Maker Title",
         "meta_descr": "Website Maker Description"
       },
-      "components": []
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            },
+            "H3": {
+              "color": "#131313"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1e",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/335454-1400x1030.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "البرُوتينات",
+          "text": "تدخل هذه المواد في تركيب كريات الدم الحمراء، وفي الأجسام المضادة التي تلعب دورا أساسيا في مقاومة الأمراض، إضافة إلى ذلك فهي تدخل في تركيب الهرمونات، وفي تكوين عوامل التخثر في الدم، وهي تزود الجسم بالطاقة، لذلك ينبغي أن يحتوي طعام الإنسان على ما يعادل 1 غرام من المواد البروتينية لكل 1 كيلو غرام من وزن الجسم.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1f",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lipides-la-viande-hd-1400x1116.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "المواد الدّسمة",
+          "text": "يعتقد الكثير من الأشخاص أن المواد الدسمة تضر بالجسم، ولهذا نجدهم لا يتناولون الأطعمة الدسمة، بينما هذه المواد الدسمة ضرورية للجسم، فهي تنقل بعض الفيتامينات إلى أماكن امتصاصها في الجسم من أجل الاستفادة منها، ومن أجل سير العمليات الاستقلالية وتزويد الجسم بالطاقة، ولأن المواد الدسمة تحترق ببطء لهذا فهي تقي الشخص من الشعور بالجوع، وذلك بمقارنتها مع المواد السكرية.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1h",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/-1400x1292.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "المواد السّكرية",
+          "text": "* تعتبر السكريات من المصادر الأساسية للطاقة، وهي بالإضافة إلى ذلك توفر بعض مواد البناء لأنسجة وأعضاء الجسم، ومن أهم مصادرها الخضار والفواكه والحبوب.<br>* ونظرا لأهمية المواد السكرية لهذا يجب أن يحصل الإنسان على كميات كافية منها يوميا، وإن لم يتوفر ذلك فان الجسم يقوم بتأمين احتياجاته من استقلاب المواد الدسمة والبروتينية، ومن جراء ذلك قد تحدث بعض الاضطرابات خصوصا إن لم يتوفر المخزون الأساسي من هذه المواد.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1i",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/53-1400x1304.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "الفيتامينات والمواد المعدنية",
+          "text": "تلعب العناصر المعدنية دورا مهما في العمليات الحيوية في الجسم فهي تنظم عملية البناء والتركيب في أنسجة وخلايا الجسم المختلفة، وهي ضرورية لاستمرار الحياة والتمتع بالصحة والعافية بعيدا عن المرض ويحتاج الجسم للفيتامينات والعناصر المعدنية لاداء وظائفه بشكل صحيح ولابد الحصول عليها من الطعام الذي نتناوله .<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "title": "Site Builder Title",
+        "meta_descr": "Site Builder Description"
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1j",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#3d8eb9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/water22-1400x1218.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "المَاء",
+          "text": "يحتوي جسم الإنسان على 57 ليترا من السوائل في جسده، ويطرح بشكل يومي 5 ليترات عن طريق البول والعرق والتبخر والتنفس أيضا. ولهذا فان الجسم بحاجة إلى حوالي ثمانية أكواب من الماء يوميا كي لا يصاب بأية اضطرابات. وتجدر الإشارة إلى أن الإنسان ولو كان على علم بأسس التغذية السليمة فانه قد يصعب عليه تطبيقها ان لم يدرك مواقع الخلل في التغذية، وكيف يصححها، فالمواد البروتينية والدسمة والسكرية والفيتامينات والعناصر المعدنية والماء جميعها ضرورية للصحة والجمال، لأن أي نقص في إحداها يسبب الاضطرابات التي تضعف الجسم وتؤثر بشكل سلبي على سلامته، ولهذا ننصح الجميع من مختلف الأعمار بضرورة تناول الغذاء الصحي المتنوع الذي يحافظ على الصحة والحيوية والجمال.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        }
+      ]
     }
   }
 }
